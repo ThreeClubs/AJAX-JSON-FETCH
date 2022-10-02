@@ -1,0 +1,25 @@
+#table-heading {
+  color: red;
+}
+
+li {
+  list-style: none;
+}
+
+#fetchedAPIData {
+  display: flex;
+  gap: 50px;
+}
+
+.user-wrapper {
+  border: 1px solid black;
+  height: 225px;
+  width: 175px;
+  padding: 10px;
+}
+
+.pokemon-wrapper {
+  border: 1px solid black;
+  padding: 10px;
+  width: 300px;
+}

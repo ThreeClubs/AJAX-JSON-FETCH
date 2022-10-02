@@ -1,0 +1,9 @@
+[
+  { "name": "Julia", "age": 35, "rel": "Sister" },
+  { "name": "Bob", "age": 31, "rel": "Brother" },
+  { "name": "Kaye", "age": 58, "rel": "Mother" },
+  { "name": "Kit", "age": 59, "rel": "Stepfather" },
+  { "name": "David", "age": 82, "rel": "Grandfather" },
+  { "name": "Helen", "age": 36, "rel": "Partner" },
+  { "name": "Andrew", "age": 58, "rel": "Father" }
+]

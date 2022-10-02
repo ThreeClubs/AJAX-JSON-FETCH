@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJAX JSON FETCH</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="heading-wrapper">
+        <h1 id="table-heading">My Family Data</h1>
+      </div>
+      <div id="table-wrapper">
+        <table id="family-table"></table>
+        <div id="fetchedData">
+          Some old garbage info here - which is to be replaced
+        </div>
+         <div id="fetchedAPIData">
+          Some old garbage info here - which is to be replaced
+        </div>
+         <div id="fetchedPokemon">
+          Some old garbage info here - which is to be replaced
+        </div>
+      </div>
+      <div id="button-wrapper">
+        <button onclick="fetchData()" id="fetch-data-btn">
+          Fetch data From local JSON file
+        </button>
+        <button onclick="fetchDataAndDisplay()" id="fetch-data-and-display-btn">
+          Fetch and display data from local JSON file
+        </button>
+         <button onclick="fetchDataFromAPIAndDisplay()" id="fetch-data-from-API-and-display-btn">
+          Fetch and display data from external JSON file sourced from API
+        </button>
+        <button onclick="fetchPokemon()" id="fetch-pokemon-btn">
+          Fetch and display Pokemon from external JSON file sourced from API
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
